@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Lip Fam</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Lip Fam</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html" class="active">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="cart.html" class="cart-icon">
+        🛒 <span id="cart-count">0</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cart-section">
+      <h1>Your Cart</h1>
+      <div id="cart-items"></div>
+      <p><strong>Total:</strong> <span id="cart-total">ksh 0</span></p>
+
+      <h2>Delivery Details</h2>
+      <p><strong>Delivery Info:</strong> Nairobi deliveries take 1–2 days. MPesa payment instructions will be sent via WhatsApp.</p>
+      <form id="checkoutForm">
+        <input type="text" id="fullName" placeholder="Full Name" required autocomplete="name">
+        <input type="text" id="address" placeholder="Delivery Address" required autocomplete="street-address">
+        <input type="tel" id="phone" placeholder="Phone Number" required autocomplete="tel">
+        <button type="submit">Place Order via WhatsApp</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Lip Fam | Follow us on <a href="#">Instagram</a> | <a href="#">TikTok</a></p>
+  </footer>
+
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

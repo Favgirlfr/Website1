@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lip Fam - Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Lip Fam</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="cart-icon">
+        🛒 <span id="cart-count">0</span>
+      </div>
+      <div class="menu-btn">☰</div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products">
+      <h1>Our Lip Products</h1>
+      <div class="product-grid">
+        <div class="product-card" data-id="101">
+          <img src="images/Rhode lip oils.jpg" alt="Rhode lip oils">
+          <h3>Rhode Lip Oils</h3>
+          <p>ksh 1200</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card" data-id="102">
+          <img src="images/Summer Fridays Collection!.jpg" alt="Summer Fridays Collection">
+          <h3>Summer Fridays</h3>
+          <p>ksh 2250</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card" data-id="103">
+          <img src="images/Laneige .jpg" alt="Laneige Lip Sleeping Mask">
+          <h3>Laneige Sleeping Mask</h3>
+          <p>ksh 1150</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card" data-id="104">
+          <img src="images/Vaseline Lip Therapy.jpg" alt="Vaseline Lip Therapy">
+          <h3>Vaseline Lip Therapy</h3>
+          <p>ksh 500</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+    <section class="product-reviews">
+  <h2>Customer Reviews</h2>
+
+  <div class="review">
+    <p><strong>Sharon W.</strong> ⭐⭐⭐⭐⭐</p>
+    <p>“The gloss is super smooth and smells amazing. I’m obsessed!”</p>
+  </div>
+
+  <div class="review">
+    <p><strong>Faith M.</strong> ⭐⭐⭐⭐</p>
+    <p>“Loved the color payoff. Delivery was fast too!”</p>
+  </div>
+
+  <div class="review">
+    <p><strong>Zainab K.</strong> ⭐⭐⭐⭐⭐</p>
+    <p>“Best lip product I’ve used in ages. Will definitely reorder.”</p>
+  </div>
+  <form id="reviewForm">
+  <input type="text" placeholder="Your Name" required autocomplete="name">
+  <textarea placeholder="Your Review" required autocomplete="Text"></textarea>
+  <button type="submit">Submit Review</button>
+</form>
+</section>
+  </main>
+
+  <footer>
+    <p>© 2025 Lip Fam | Follow us on 
+      <a href="https://instagram.com/fr_its_joan" target="_blank">Instagram</a> | <a href="https://www.tiktok.com/@fr_its_joan" target="_blank">TikTok</a>
+    </p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
