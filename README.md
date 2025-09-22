@@ -45,8 +45,10 @@ lip-fam-website/
 ## 📖 How to Use
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/lip-fam-website.git
+   git clone https://github.com/Favgirlfr/Website1.git
 Open index.html in your browser.
+
+Live Website URL - https://favgirlfr.github.io/Website1/
 
 Explore pages: Home → Products → Cart → Contact.
 
@@ -74,4 +76,5 @@ Real product database.
 Payment gateway (Stripe, PayPal, etc.).
 
 Newsletter backend support.
+
 
